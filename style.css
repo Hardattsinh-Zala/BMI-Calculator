@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dda15e;
+    text-align: center;
+}
+
+.container {
+    height: 400px;
+    width: 250px;
+    background-color: #fefae0;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+form {
+    font-size: large;
+}
+
+input, #sex {
+    border-color: transparent;
+    border-radius: 0.5rem;
+    width: 12rem;
+    height: 1.5rem;
+}
+
+input:hover, #sex:hover {
+    border: 2px solid #283618;
+}
+
+.calculate {
+    background-color: #bc6c25;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+}
